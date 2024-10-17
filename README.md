@@ -27,5 +27,17 @@ All of the code and files in this repository are covered by the license mentione
  - L.H.Sloot*, M.Millard*, C.Werner, & K.Mombaur (2020). Slow but steady: similar sit-to-stand balance at seat-off in older versus younger adults. Frontiers in Sports and Active Living 2(144). https://doi.org/10.3389/fspor.2020.548174 ( * equal first authors)
 
 # Quick start
-1. At the moment this repository does not contain
+1. Start Matlab in the src directory
+2. Run main_testFpe3d.m. You should see the following output:
 
+```
+computing the fpe ...
+done: 
+    5       bisection iterations
+    6       Newton titerations
+    1.083578e-13    final solution error
+testing the fpe against a pre-computed solution
+success: non-derivative quantities passed the numerical check
+success: derivative quantities passed the numerical check
+```
+3. Read the documentation of calc3DFootPlacementEstimatorInfo.m so that you know what inputs to give to the function.
